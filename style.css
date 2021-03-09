@@ -18,3 +18,41 @@
 .middlecontent {
   background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
 }
+
+.box img {
+  width: 100px;
+  height: 120px;
+  /* z-index: 2; */
+}
+
+.writer img {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  left: 25px;
+  bottom: -550px;
+  /* z-index: 1; */
+}
+
+.authorbio {
+  position: relative;
+  top: -115px;
+  left: 130px;
+}
+
+footer img {
+  width: 60px;
+  height: 70px;
+}
+
+.conferencelogo {
+  border: 1px solid palevioletred;
+  width: 100px;
+  height: 60px;
+}
+
+.pastcon img {
+  height: 200px;
+  width: 300px;
+  margin: 60px;
+}
