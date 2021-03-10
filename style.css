@@ -1,37 +1,55 @@
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
-/* body {
+body {
   overflow-x: hidden;
-  
-} */
+}
 
-.vision {
+.mission {
   width: 45rem;
   height: 5rem;
-  background-color: aliceblue;
+  background-color: blanchedalmond;
+  border: 1px solid rosybrown;
+}
+
+.mission2 {
+  background-color: blanchedalmond;
+  border: 1px solid rosybrown;
+}
+
+.mainprogram {
+  background-color: grey;
+  border: 1px solid rosybrown;
 }
 
 .middlecontent {
   background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+  padding: 3%;
+}
+
+.persondiv {
+  position: relative;
+}
+
+footer img {
+  width: 60px;
+  height: 70px;
 }
 
 .box img {
   width: 100px;
   height: 120px;
-  /* z-index: 2; */
 }
 
 .writer img {
   width: 100px;
   height: 120px;
   position: absolute;
-  left: 25px;
-  bottom: -550px;
-  /* z-index: 1; */
+  margin-left: 20px;
+  bottom: -30px;
 }
 
 .authorbio {
@@ -40,14 +58,9 @@
   left: 130px;
 }
 
-footer img {
-  width: 60px;
-  height: 70px;
-}
-
 .conferencelogo {
   border: 1px solid palevioletred;
-  width: 100px;
+  width: 180px;
   height: 60px;
 }
 
@@ -55,4 +68,33 @@ footer img {
   height: 200px;
   width: 300px;
   margin: 60px;
+}
+
+.sectionabout {
+  background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+}
+
+.maincourse {
+  border: 1px solid black;
+  max-width: 90%;
+  height: 40px;
+  padding: 4px;
+  background-color: grey;
+  margin-left: 90px;
+}
+
+.menu {
+  border: 1px solid black;
+  padding: 5px;
+  max-width: 90%;
+  margin-left: 90px;
+}
+
+.rhombus img {
+  margin-left: 390px;
+}
+
+.btn {
+  margin-left: 500px;
+  width: 300px;
 }
