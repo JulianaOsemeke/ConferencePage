@@ -1,59 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Capstone Project: Creative Writers Global Conference Page
 
-> One paragraph statement about the project.
+> Capstone project that entails building a conference page taking into consideration the Client's Business requirements.
 
-![screenshot](./app_screenshot.png)
+![screenshot](Assets/Images/screencapture-127-0-0-1-5500-index-html-2021-03-10-15_02_55.png)
 
-Additional description about the project and its features.
+
 
 ## Built With
 
 - Major languages
+  HTML & CSS
+
 - Frameworks
+  BOOTSTRAP 5
+
 - Technologies used
+  VISUAL STUDIO CODE
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://julianaosemeke.github.io/ConferencePage/)
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Juliana Osemeke**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@JulianaOsemeke](https://github.com/JulianaOsemeke)
+- Twitter: [@JulianaOsemeke](https://twitter.com/JulianaOsemeke)
+- LinkedIn: [@julianaosemeke](https://ng.linkedin.com/in/juliana-osemeke)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,11 +45,7 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
