@@ -23,8 +23,6 @@ Capstone Project: Creative Writers Global Conference Page
 
 [Live Demo Link](https://julianaosemeke.github.io/ConferencePage/)
 
-
-
 ## Author
 
 👤 **Juliana Osemeke**
@@ -32,7 +30,6 @@ Capstone Project: Creative Writers Global Conference Page
 - GitHub: [@JulianaOsemeke](https://github.com/JulianaOsemeke)
 - Twitter: [@JulianaOsemeke](https://twitter.com/JulianaOsemeke)
 - LinkedIn: [@julianaosemeke](https://ng.linkedin.com/in/juliana-osemeke)
-
 
 
 ## 🤝 Contributing
