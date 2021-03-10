@@ -1,100 +1,320 @@
+/* DEFAULT */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .mission {
+    width: 250px;
+    height: 100%;
+    padding: 50px;
+    display: block;
+    background-color: blanchedalmond;
+    border: 1px solid rosybrown;
+  }
+
+  .date {
+    width: 500px;
+  }
+
+  .location {
+    width: 200px;
+  }
+
+  .mission2 {
+    background-color: blanchedalmond;
+    border: 1px solid rosybrown;
+  }
+
+  .mainprogram {
+    background-color: grey;
+    border: 1px solid rosybrown;
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .middlecontent {
+    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    padding: 3%;
+  }
+
+  .persondiv {
+    position: relative;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .box img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .writer img {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    margin-left: 20px;
+    bottom: -30px;
+  }
+
+  .authorbio {
+    position: relative;
+    top: -115px;
+    left: 130px;
+  }
+
+  .conferencelogo {
+    border: 1px solid palevioletred;
+    width: 180px;
+    height: 60px;
+  }
+
+  .pastcon img {
+    height: 200px;
+    width: 300px;
+    margin: 60px;
+  }
+
+  .sectionabout {
+    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+  }
+
+  .maincourse {
+    border: 1px solid black;
+    max-width: 90%;
+    height: 40px;
+    padding: 4px;
+    background-color: grey;
+    margin-left: 90px;
+  }
+
+  .menu {
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 90%;
+    margin-left: 90px;
+  }
+
+  .rhombus img {
+    margin-left: 390px;
+  }
+
+  .btn {
+    margin-left: 500px;
+    width: 300px;
+  }
 }
 
-.mission {
-  width: 45rem;
-  height: 5rem;
-  background-color: blanchedalmond;
-  border: 1px solid rosybrown;
+/* TABLET DEVICES */
+@media only screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .mission {
+    width: 45rem;
+    height: 5rem;
+    background-color: blanchedalmond;
+    border: 1px solid rosybrown;
+  }
+
+  .mission2 {
+    background-color: blanchedalmond;
+    border: 1px solid rosybrown;
+  }
+
+  .mainprogram {
+    background-color: grey;
+    border: 1px solid rosybrown;
+  }
+
+  .middlecontent {
+    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    padding: 3%;
+  }
+
+  .persondiv {
+    position: relative;
+  }
+
+  footer img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .box img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .writer img {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    margin-left: 20px;
+    bottom: -30px;
+  }
+
+  .authorbio {
+    position: relative;
+    top: -115px;
+    left: 130px;
+  }
+
+  .conferencelogo {
+    border: 1px solid palevioletred;
+    width: 180px;
+    height: 60px;
+  }
+
+  .pastcon img {
+    height: 200px;
+    width: 300px;
+    margin: 60px;
+  }
+
+  .sectionabout {
+    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+  }
+
+  .maincourse {
+    border: 1px solid black;
+    max-width: 90%;
+    height: 40px;
+    padding: 4px;
+    background-color: grey;
+    margin-left: 90px;
+  }
+
+  .menu {
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 90%;
+    margin-left: 90px;
+  }
+
+  .rhombus img {
+    margin-left: 390px;
+  }
+
+  .btn {
+    margin-left: 500px;
+    width: 300px;
+  }
 }
 
-.mission2 {
-  background-color: blanchedalmond;
-  border: 1px solid rosybrown;
-}
+/* LAPTOP SCREENS */
+@media screen and (min-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
 
-.mainprogram {
-  background-color: grey;
-  border: 1px solid rosybrown;
-}
+  .mission {
+    width: 45rem;
+    height: 5rem;
+    background-color: blanchedalmond;
+    border: 1px solid rosybrown;
+  }
 
-.middlecontent {
-  background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
-  padding: 3%;
-}
+  .mission2 {
+    background-color: blanchedalmond;
+    border: 1px solid rosybrown;
+  }
 
-.persondiv {
-  position: relative;
-}
+  .mainprogram {
+    background-color: grey;
+    border: 1px solid rosybrown;
+  }
 
-footer img {
-  width: 60px;
-  height: 70px;
-}
+  .middlecontent {
+    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    padding: 3%;
+  }
 
-.box img {
-  width: 100px;
-  height: 120px;
-}
+  .persondiv {
+    position: relative;
+  }
 
-.writer img {
-  width: 100px;
-  height: 120px;
-  position: absolute;
-  margin-left: 20px;
-  bottom: -30px;
-}
+  footer img {
+    width: 60px;
+    height: 70px;
+  }
 
-.authorbio {
-  position: relative;
-  top: -115px;
-  left: 130px;
-}
+  .box img {
+    width: 100px;
+    height: 120px;
+  }
 
-.conferencelogo {
-  border: 1px solid palevioletred;
-  width: 180px;
-  height: 60px;
-}
+  .writer img {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    margin-left: 20px;
+    bottom: -30px;
+  }
 
-.pastcon img {
-  height: 200px;
-  width: 300px;
-  margin: 60px;
-}
+  .authorbio {
+    position: relative;
+    top: -115px;
+    left: 130px;
+  }
 
-.sectionabout {
-  background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
-}
+  .conferencelogo {
+    border: 1px solid palevioletred;
+    width: 180px;
+    height: 60px;
+  }
 
-.maincourse {
-  border: 1px solid black;
-  max-width: 90%;
-  height: 40px;
-  padding: 4px;
-  background-color: grey;
-  margin-left: 90px;
-}
+  .pastcon img {
+    height: 200px;
+    width: 300px;
+    margin: 60px;
+  }
 
-.menu {
-  border: 1px solid black;
-  padding: 5px;
-  max-width: 90%;
-  margin-left: 90px;
-}
+  .sectionabout {
+    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+  }
 
-.rhombus img {
-  margin-left: 390px;
-}
+  .maincourse {
+    border: 1px solid black;
+    max-width: 90%;
+    height: 40px;
+    padding: 4px;
+    background-color: grey;
+    margin-left: 90px;
+  }
 
-.btn {
-  margin-left: 500px;
-  width: 300px;
+  .menu {
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 90%;
+    margin-left: 90px;
+  }
+
+  .rhombus img {
+    margin-left: 390px;
+  }
+
+  .btn {
+    margin-left: 500px;
+    width: 300px;
+  }
 }
