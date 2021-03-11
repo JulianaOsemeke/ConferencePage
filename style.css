@@ -1,5 +1,8 @@
-/* DEFAULT */
-/* @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE); */
+@font-face {
+  font-family: cocogoose;
+  src: url(./Assets/FONTS/Cocogoose\ Pro\ Thin\ Trial.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,13 +16,15 @@
     overflow-x: hidden;
   }
 
-  .open h1,
-  .open p {
+  .pcreative,
+  .creative {
+    font-family: cocogoose, serif;
     color: #ec5242;
   }
 
   .programheading {
     border-bottom: 1px solid #ec5242;
+    font-family: cocogoose, serif;
   }
 
   .mission {
@@ -29,19 +34,23 @@
     display: block;
     background-color: blanchedalmond;
     border: 1px solid rosybrown;
+    font-family: serif;
   }
 
   .date {
     width: 500px;
+    font-family: cocogoose, serif;
   }
 
   .location {
     width: 200px;
+    font-family: serif;
   }
 
   .mission2 {
     background-color: blanchedalmond;
     border: 1px solid rosybrown;
+    font-family: serif;
   }
 
   .program {
@@ -60,11 +69,25 @@
 
   .mainprogram h4 {
     color: #ec5242;
+    font-family: cocogoose, serif;
+    font-size: 14px;
+  }
+
+  .mainprogram p {
+    font-family: serif;
+    font-size: 10px;
   }
 
   .middlecontent {
-    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    background-image: url("Assets/Images/creative.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 3%;
+  }
+
+  .sectionabout p {
+    font-family: serif;
   }
 
   .persondiv {
@@ -88,6 +111,7 @@
   .subfooter {
     background-color: #d3d3d3;
     font-size: 10px;
+    font-family: cocogoose, serif;
   }
 
   .box img {
@@ -109,14 +133,28 @@
     left: 130px;
   }
 
-  .authorbio h5 {
-    color: #ec5242;
+  .authorbio h2 {
+    font-family: cocogoose, serif;
   }
 
-  .conferencelogo {
+  .authorbio h5 {
+    color: #ec5242;
+    font-family: serif;
+  }
+
+  .authorbio p {
+    font-family: serif;
+  }
+
+  .conferencelogo a {
     border: 1px solid palevioletred;
     width: 180px;
     height: 60px;
+    color: #ec5242;
+  }
+
+  .instruction p {
+    color: #ec5242;
   }
 
   .pastcon {
@@ -193,8 +231,31 @@
   }
 
   .middlecontent {
-    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    background-image: url("Assets/Images/creative.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 3%;
+  }
+
+  .mainprogram h4 {
+    color: #ec5242;
+    font-family: cocogoose, serif;
+    font-size: 14px;
+  }
+
+  .mainprogram p {
+    font-family: serif;
+    font-size: 10px;
+  }
+
+  .authorbio h5 {
+    color: #ec5242;
+    font-family: serif;
+  }
+
+  .authorbio p {
+    font-family: serif;
   }
 
   .persondiv {
@@ -247,7 +308,7 @@
   }
 
   .sectionabout {
-    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    background-image: url("./Assets/Images/creative.jpg");
   }
 
   .maincourse {
@@ -274,6 +335,11 @@
     margin-left: 500px;
     width: 300px;
   }
+
+  .subfooter {
+    background-color: #d3d3d3;
+    font-size: 10px;
+  }
 }
 
 /* LAPTOP SCREENS */
@@ -287,6 +353,27 @@
     height: 5rem;
     background-color: blanchedalmond;
     border: 1px solid rosybrown;
+    font-family: serif;
+  }
+
+  .date {
+    font-family: cocogoose, serif;
+  }
+
+  .pcreative,
+  .creative {
+    font-family: cocogoose, serif;
+    color: #ec5242;
+  }
+
+  p {
+    font-family: serif;
+    font-size: 14px;
+  }
+
+  .programheading {
+    border-bottom: 1px solid #ec5242;
+    font-family: cocogoose, serif;
   }
 
   .mission2 {
@@ -302,6 +389,12 @@
     width: 100%;
   }
 
+  .mainprogram h4 {
+    color: #ec5242;
+    font-family: cocogoose, serif;
+    font-size: 14px;
+  }
+
   .mainprogram {
     background-color: grey;
     border: 1px solid rosybrown;
@@ -312,12 +405,26 @@
   }
 
   .middlecontent {
-    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    background-image: url("Assets/Images/creative.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 3%;
   }
 
   .persondiv {
     position: relative;
+  }
+
+  .authorbio h5 {
+    color: #ec5242;
+    font-family: serif;
+  }
+
+  .authorbio p {
+    font-family: serif;
+    width: 50%;
+    height: auto;
   }
 
   footer img {
@@ -344,11 +451,6 @@
     left: 130px;
   }
 
-  .authorbio p {
-    width: 50%;
-    height: auto;
-  }
-
   .conferencelogo {
     border: 1px solid grey;
     width: 180px;
@@ -363,7 +465,7 @@
   }
 
   .sectionabout {
-    background-image: url("./Assets/Images/pexels-photo-242236.jpeg");
+    background-image: url("Assets/Images/creative.jpg");
   }
 
   .maincourse {
