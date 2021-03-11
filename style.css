@@ -1,4 +1,5 @@
 /* DEFAULT */
+/* @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE); */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +9,17 @@
 /* MOBILE DEVICES */
 @media only screen and (max-width: 600px) {
   body {
+    width: 100%;
     overflow-x: hidden;
+  }
+
+  .open h1,
+  .open p {
+    color: #ec5242;
+  }
+
+  .programheading {
+    border-bottom: 1px solid #ec5242;
   }
 
   .mission {
@@ -33,6 +44,10 @@
     border: 1px solid rosybrown;
   }
 
+  .program {
+    width: 100%;
+  }
+
   .mainprogram {
     background-color: grey;
     border: 1px solid rosybrown;
@@ -41,6 +56,10 @@
     height: 40%;
     margin: 5px;
     padding: 10px;
+  }
+
+  .mainprogram h4 {
+    color: #ec5242;
   }
 
   .middlecontent {
@@ -57,9 +76,18 @@
     flex-direction: row;
   }
 
+  footer {
+    width: 100%;
+  }
+
   footer img {
     width: 60px;
     height: 70px;
+  }
+
+  .subfooter {
+    background-color: #d3d3d3;
+    font-size: 10px;
   }
 
   .box img {
@@ -81,15 +109,28 @@
     left: 130px;
   }
 
+  .authorbio h5 {
+    color: #ec5242;
+  }
+
   .conferencelogo {
     border: 1px solid palevioletred;
     width: 180px;
     height: 60px;
   }
 
+  .pastcon {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
   .pastcon img {
     height: 200px;
-    width: 300px;
+    width: 15rem;
     margin: 60px;
   }
 
@@ -129,6 +170,11 @@
     overflow-x: hidden;
   }
 
+  .open h1,
+  .open p {
+    color: #ec5242;
+  }
+
   .mission {
     width: 45rem;
     height: 5rem;
@@ -153,6 +199,10 @@
 
   .persondiv {
     position: relative;
+  }
+
+  footer {
+    width: 100%;
   }
 
   footer img {
@@ -187,8 +237,13 @@
 
   .pastcon img {
     height: 200px;
-    width: 300px;
-    margin: 60px;
+    width: 30rem;
+  }
+
+  .pastcon {
+    width: 40%;
+    display: flex;
+    justify-content: center;
   }
 
   .sectionabout {
@@ -235,13 +290,25 @@
   }
 
   .mission2 {
-    background-color: blanchedalmond;
+    background-color: #d3d3d3;
     border: 1px solid rosybrown;
+  }
+
+  .jumbotron h1 {
+    color: #ec5242;
+  }
+
+  .program {
+    width: 100%;
   }
 
   .mainprogram {
     background-color: grey;
     border: 1px solid rosybrown;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
   }
 
   .middlecontent {
@@ -277,10 +344,16 @@
     left: 130px;
   }
 
+  .authorbio p {
+    width: 50%;
+    height: auto;
+  }
+
   .conferencelogo {
-    border: 1px solid palevioletred;
+    border: 1px solid grey;
     width: 180px;
     height: 60px;
+    color: #ec5242;
   }
 
   .pastcon img {
@@ -316,5 +389,10 @@
   .btn {
     margin-left: 500px;
     width: 300px;
+  }
+
+  .subfooter {
+    background-color: #d3d3d3;
+    font-size: 10px;
   }
 }
