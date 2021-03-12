@@ -23,6 +23,16 @@ Capstone Project: Creative Writers Global Conference Page
 
 [Live Demo Link](https://julianaosemeke.github.io/ConferencePage/)
 
+#Getting Started
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+
+## Usage
+To get a local copy up and running follow these simple example steps.
+1. Clone the master repository on your system locally by running this command : git clone git@github.com:JulianaOsemeke/ConferencePage.git
+
+2. Deploy on github page
+
 ## Author
 
 👤 **Juliana Osemeke**
