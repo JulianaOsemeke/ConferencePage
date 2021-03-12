@@ -398,7 +398,7 @@
   }
 
   .programheading {
-    border-bottom: 1px solid #ec5242;
+    /* border-bottom: 0.1px solid #ec5242; */
     font-family: cocogoose, serif;
   }
 
@@ -418,14 +418,17 @@
   .mainprogram-div {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .mainprogram {
     background-color: grey;
     border: 1px solid rosybrown;
-    width: 150px;
+    border-radius: 2%;
+    width: 50rem;
+    height: 15rem;
     margin: 1rem auto;
+    padding: 25px;
   }
 
   .mainprogram h4 {
