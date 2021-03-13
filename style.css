@@ -175,8 +175,14 @@ footer img {
   color: #ec5242;
 }
 
-.instruction p {
+.instruction {
   color: #ec5242;
+  font-size: 0.8rem;
+  padding: 5px;
+  margin: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .pastcon {
@@ -214,13 +220,19 @@ footer img {
   margin-left: 1.5rem;
 }
 
+.rhombus {
+  position: relative;
+  padding-top: 25px;
+}
+
 .rhombus img {
-  margin-left: 4.5rem;
-  width: 10rem;
+  width: 50px;
+  position: absolute;
+  top: -13px;
+  left: calc(50% - 25px);
 }
 
 .btn {
-  margin-left: 2.6rem;
   width: 10rem;
 }
 
@@ -254,7 +266,7 @@ footer img {
 }
 
 .main {
-  padding-top: 100px;
+  padding-top: 96px;
 }
 
 .section-heading {
@@ -437,22 +449,15 @@ footer img {
     height: 40px;
     padding: 4px;
     background-color: grey;
-    margin-left: 90px;
   }
 
   .menu {
     border: 1px solid black;
     padding: 5px;
     max-width: 90%;
-    margin-left: 90px;
-  }
-
-  .rhombus img {
-    margin-left: 390px;
   }
 
   .btn {
-    margin-left: 500px;
     width: 300px;
   }
 
@@ -464,6 +469,10 @@ footer img {
 @media (min-width: 992px) {
   .container {
     max-width: 720px;
+  }
+
+  .main {
+    padding-top: 140px;
   }
 }
 
