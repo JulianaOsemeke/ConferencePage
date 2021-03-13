@@ -94,8 +94,8 @@ body {
   border: 1px solid rosybrown;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 100%;
-  margin: 5px;
   padding: 10px;
 }
 
@@ -270,7 +270,7 @@ footer img {
   .mainprogram {
     background-color: grey;
     border: 1px solid rosybrown;
-    margin: 0 auto;
+    flex-direction: column;
     padding: 5px;
   }
 
