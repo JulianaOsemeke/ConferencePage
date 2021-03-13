@@ -61,10 +61,6 @@ body {
   font-family: serif;
 }
 
-.programheading {
-  border-bottom: 1px solid #ec5242;
-}
-
 .mission {
   width: 250px;
   height: 100%;
@@ -226,6 +222,53 @@ footer img {
 .btn {
   margin-left: 2.6rem;
   width: 10rem;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.drawer {
+  position: fixed;
+  background-color: #fff;
+  width: 300px;
+  top: 90px;
+  right: -305px;
+  height: calc(100vh - 90px);
+  padding-left: 30px;
+  border-top: 1px dotted #80808024;
+  border-left: 1px solid #00000059;
+  transition: right 0.2s linear;
+}
+
+.drawer.open {
+  right: 0;
+  transition: right 0.2s linear;
+}
+
+.drawer a {
+  color: inherit;
+}
+
+.main {
+  padding-top: 90px;
+}
+
+.section-heading {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  bottom: 0;
+  left: calc(50% - 15px);
+  border-bottom: 1px solid #ec5242;
 }
 
 /* TABLET DEVICES */
