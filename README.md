@@ -4,7 +4,7 @@ Capstone Project: Creative Writers Global Conference Page
 
 > Capstone project that entails building a conference page taking into consideration the Client's Business requirements.
 
-![screenshot](Assets/Images/screencapture-127-0-0-1-5500-index-html-2021-03-12-14_52_32.png)
+![screenshot](Assets/Images/screencapture-127-0-0-1-5500-index-html-2021-03-13-14_10_19.png)
 
 
 
