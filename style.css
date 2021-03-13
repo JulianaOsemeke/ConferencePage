@@ -17,6 +17,21 @@
   background-color: #d3d3d3;
 }
 
+.mainprogram-div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2px;
+  row-gap: 15px;
+}
+
+.mainprogram-div > div {
+  padding: 1px;
+}
+
+.mainprogram {
+  height: 100%;
+}
+
 /* MOBILE DEVICES */
 @media only screen and (max-width: 768px) {
   body {
@@ -32,11 +47,6 @@
   .programheading {
     border-bottom: 1px solid #ec5242;
     font-family: cocogoose, serif;
-  }
-
-  .mainprogram-div {
-    display: flex;
-    flex-direction: column;
   }
 
   .mission {
@@ -73,7 +83,7 @@
     border: 1px solid rosybrown;
     display: flex;
     justify-content: space-between;
-    height: 40%;
+    height: 100%;
     margin: 5px;
     padding: 10px;
   }
@@ -215,9 +225,13 @@
 }
 
 /* TABLET DEVICES */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 720px;
   }
 
   .open h1,
@@ -238,17 +252,14 @@
   }
 
   .mainprogram-div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .mainprogram {
     background-color: grey;
     border: 1px solid rosybrown;
-    width: 150px;
     margin: 0 auto;
+    padding: 5px;
   }
 
   .middlecontent {
@@ -374,6 +385,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
 /* LAPTOP SCREENS */
 @media screen and (min-width: 1024px) {
   body {
@@ -419,28 +436,6 @@
 
   .program {
     width: 100%;
-  }
-
-  .mainprogram-div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-
-  .mainprogram {
-    background-color: grey;
-    border: 1px solid rosybrown;
-    border-radius: 2%;
-    width: 50rem;
-    height: 15rem;
-    margin: 1rem auto;
-    padding: 25px;
-  }
-
-  .mainprogram h4 {
-    color: #ec5242;
-    font-family: cocogoose, serif;
-    font-size: 14px;
   }
 
   .middlecontent {
@@ -540,5 +535,11 @@
 
   .subfooter {
     font-size: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 720px;
   }
 }
