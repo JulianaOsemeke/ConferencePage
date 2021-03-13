@@ -228,6 +228,7 @@ footer img {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .drawer {
@@ -269,6 +270,23 @@ footer img {
   bottom: 0;
   left: calc(50% - 15px);
   border-bottom: 1px solid #ec5242;
+}
+
+.speakers-div .hide-on-less {
+  display: block;
+}
+
+.speakers-div.less .hide-on-less {
+  display: none;
+}
+
+.more-btn {
+  display: block;
+  width: 100%;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
 }
 
 /* TABLET DEVICES */
@@ -365,6 +383,10 @@ footer img {
     display: flex;
     flex-wrap: wrap;
     width: 95%;
+  }
+
+  .speakers-div.less .hide-on-less {
+    display: block;
   }
 
   .writer {

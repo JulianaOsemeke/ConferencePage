@@ -172,7 +172,7 @@
     </section>
     <section class="speakers">
       <p class="text-dark text-center fs-4 section-heading">Featured Speakers</p>
-      <div class="container speakers-div">
+      <div class="container speakers-div less" id="speakers-container">
         <div class="speakers-div-col clearfix">
           <div class="persondiv float-start">
             <img class="box w-md-100" src="Assets/Images/no-background.png" alt="mesh">
@@ -199,7 +199,7 @@
           </div>
         </div>
   
-        <div class="speakers-div-col clearfix">
+        <div class="speakers-div-col clearfix hide-on-less">
           <div class="persondiv float-start">
             <img class="box w-md-100" src="Assets/Images/no-background.png" alt="mesh">
             <img class="writer w-md-100" src="Assets/Images/Ivan-Meryll.jpg" alt="speakerpic">
@@ -212,7 +212,7 @@
           </div>
         </div>
   
-        <div class="speakers-div-col clearfix">
+        <div class="speakers-div-col clearfix hide-on-less">
           <div class="persondiv float-start">
             <img class="box w-md-100" src="Assets/Images/no-background.png" alt="mesh">
             <img class="writer w-md-100" src="Assets/Images/Jessica-simpson.png" alt="speakerpic">
@@ -225,7 +225,7 @@
           </div>
         </div>
   
-        <div class="speakers-div-col clearfix">
+        <div class="speakers-div-col clearfix hide-on-less">
           <div class="persondiv float-start">
             <img class="box w-md-100" src="Assets/Images/no-background.png" alt="mesh">
             <img class="writer w-md-100" src="Assets/Images/Jan-Blahovic.jpg" alt="speakerpic">
@@ -238,7 +238,7 @@
           </div>
         </div>
   
-        <div class="speakers-div-col clearfix">
+        <div class="speakers-div-col clearfix hide-on-less">
           <div class="persondiv float-start">
             <img class="box w-md-100" src="Assets/Images/no-background.png" alt="mesh">
             <img class="writer w-md-100" src="Assets/Images/Sarah-Taver.png" alt="speakerpic">
@@ -250,7 +250,10 @@
               Lorem Ipsum has been the <br>industry's standard dummy text ever since the 1500s</p>
           </div>
         </div>
-      </div>  
+      </div>
+      <div class="more-btn-wrap d-md-none p-4">
+        <button class="more-btn" type="button" id="speakers-more-less-btn">More</button>
+      </div>
     </section>
   </main>
   <footer>
@@ -267,7 +270,7 @@
       </div>
     </div>
     <div class="subfooter-container">
-      <div class="container subfooter text-secondary text-center">
+      <div class="container subfooter text-secondary text-center py-3">
         <p>JULES &COPY;2021 Creative Nigeria. Some Rights Reserved</p>
         <p>也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字,</p><br>
         <p>由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
@@ -275,8 +278,19 @@
     </div>
   </footer>
   <script>
-    document.querySelector('#drawer-btn').addEventListener('click', e => {
+    document.querySelector('#drawer-btn').addEventListener('click', function() {
       document.querySelector('#drawer').classList.toggle('open');
+    });
+    const moreLessBtn = document.querySelector('#speakers-more-less-btn');
+    const speakersContainer = document.querySelector('#speakers-container');
+    moreLessBtn.addEventListener('click', function() {
+      if(speakersContainer.classList.contains('less')) {
+        speakersContainer.classList.remove('less');
+        moreLessBtn.innerHTML = 'Less';
+      } else {
+        speakersContainer.classList.add('less');
+        moreLessBtn.innerHTML = 'More';
+      }
     });
   </script>
 </body>
