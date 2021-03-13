@@ -29,7 +29,13 @@
 }
 
 .mainprogram {
+  background-color: grey;
+  border: 1px solid rosybrown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 100%;
+  padding: 10px;
 }
 
 body {
@@ -83,16 +89,6 @@ body {
 
 .program {
   width: 100%;
-}
-
-.mainprogram {
-  background-color: grey;
-  border: 1px solid rosybrown;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  padding: 10px;
 }
 
 .mainprogram h4 {
@@ -457,7 +453,7 @@ footer img {
     font-family: cocogoose, serif;
     font-size: 2rem;
   }
-  
+
   .about-title .number {
     font-family: serif;
     font-size: 2.2rem;
