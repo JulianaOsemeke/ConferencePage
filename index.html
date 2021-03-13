@@ -251,6 +251,22 @@
     </div>
 
   </footer>
+  <script>
+  document.querySelector('#drawer-btn').addEventListener('click', function() {
+    document.querySelector('#drawer').classList.toggle('open');
+  });
+  const moreLessBtn = document.querySelector('#speakers-more-less-btn');
+  const speakersContainer = document.querySelector('#speakers-container');
+  moreLessBtn.addEventListener('click', function() {
+    if(speakersContainer.classList.contains('less')) {
+      speakersContainer.classList.remove('less');
+      moreLessBtn.innerHTML = 'Less';
+    } else {
+      speakersContainer.classList.add('less');
+      moreLessBtn.innerHTML = 'More';
+    }
+  });
+</script>
 
 </body>
 
