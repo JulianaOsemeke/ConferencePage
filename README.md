@@ -1,59 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Capstone Project: Creative Writers Global Conference Page
 
-> One paragraph statement about the project.
+> Capstone project that entails building a conference page taking into consideration the Client's Business requirements.
 
-![screenshot](./app_screenshot.png)
+![screenshot](Assets/Images/screencapture-127-0-0-1-5500-index-html-2021-03-13-14_10_19.png)
 
-Additional description about the project and its features.
+
 
 ## Built With
 
 - Major languages
+  HTML & CSS
+
 - Frameworks
+  BOOTSTRAP 5
+
 - Technologies used
+  VISUAL STUDIO CODE
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://julianaosemeke.github.io/ConferencePage/)
+
+#Getting Started
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
+## Usage
 To get a local copy up and running follow these simple example steps.
+1. Clone the master repository on your system locally by running this command : git clone git@github.com:JulianaOsemeke/ConferencePage.git
 
-### Prerequisites
+2. Deploy on github page
 
-### Setup
+## Author
 
-### Install
+👤 **Juliana Osemeke**
 
-### Usage
+- GitHub: [@JulianaOsemeke](https://github.com/JulianaOsemeke)
+- Twitter: [@JulianaOsemeke](https://twitter.com/JulianaOsemeke)
+- LinkedIn: [@julianaosemeke](https://ng.linkedin.com/in/juliana-osemeke)
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,12 +52,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
-## 📝 License
 
-This project is [MIT](lic.url) licensed.

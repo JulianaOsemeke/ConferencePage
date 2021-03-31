@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
+    type="text/css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-none d-md-none d-lg-block bg-dark p-0 ">
+      <div class="container">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-sm-end " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">English</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">MyPage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Log Out</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-3  ">
+      <div class="container">
+        <a class="navbar-brand fs-1 fw-bold text-danger" href="#"><em>C.W GLOBAL</em></a>
+        <button id="drawer-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav1"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex justify-content-sm-end d-none d-sm-none d-md-none d-lg-flex"
+          id="navbarNav1">
+          <ul class="navbar-nav fs-4 fw-bold text-secondary ">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  about" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="ticket.html">Get Ticket</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="drawer" id="drawer">
+      <ul class="navbar-nav fs-4 fw-bold text-secondary ">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  about" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="ticket.html">Get Ticket</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="middlecontent">
+      <div class="container">
+        <h1 class="text-center">Select Tickets</h1>
+        <p class=" instruction text-danger text-center">STEP 1 <span class="text-muted">- Please select the day you want to join the Creative Writers Global Summit 2021</span></p>
+        <div class="table-responsive  text-center">
+          <table class="table table-bordered bg-white w-30">
+            <thead>
+              <tr >
+                <th>Ticket</th>
+                <th>1-Day-Ticket</th>
+                <th colspan="2" class="text-center">2-Day-Ticket</th>
+                <th>CW Affliates/Partners</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Date</th>
+                <td>15.Oct (Thur)</td>
+                <td>16.Oct (Fri)</td>
+                <td>15-16.Oct(Thur-Fri)</td>
+                <td>15-16.Oct(Thur-Fri)</td>
+              </tr>
+              <tr>
+                <th scope="row">Normal</th>
+                <td><label for="payment1">N70,000</label><br><input type="radio" name="cash" id="payment1"></td>
+                <td><label for="payment2">N70,000</label><br><input type="radio" name="cash" id="payment2"></td>
+                <td><label for="payment3">N100,000</label><br><input type="radio" name="cash" id="payment3"></td>
+                <td><label for="payment4">N0</label><br><input type="radio" name="cash" id="payment4"></td>
+              </tr>
+              <tr>
+                <th scope="row">Students</th>
+                <td><label for="payment5">N30,000</label><br><input type="radio" name="cash" id="payment5"></td>
+                <td><label for="payment6">N30,000</label><br><input type="radio" name="cash" id="payment6" ></td>
+                <td><label for="payment7">N50,000</label><br><input type="radio" name="cash" id="payment7"></td>
+                <td><label for="payment8">N0</label><br><input type="radio" name="cash" id="payment8"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="rhombus">
+          <img src="./Assets/Images/rhombus.png"  alt="">
+          <h3 class="text-center">Select Your Lunch</h3>
+          <p class="text-center text-danger instruction">STEP 2 <span class="text-muted">- Please Select Your Lunch for registered Day. There will be no further Cost For Lunch</span></p>
+        </div>
+        <div class="submission">
+          <form action="post">
+            <div class="maincourse"> 
+              <h2 class="text-center">Main Course</h2><br>
+              </div>
+              <div class="text-center menu">
+                <label for="maincourse1">Menu 1</label><input class="m-3" type="radio" name="maincourse" id="maincourse1">
+                <label for="maincourse2">Menu 2</label><input class="m-3" type="radio" name="maincourse" id="maincourse2">
+                <label for="maincourse3">Menu 3</label><input class="m-3" type="radio" name="maincourse" id="maincourse3">
+                <label for="maincourse4">Menu 4</label><input class="m-3"  type="radio" name="maincourse" id="maincourse4">
+              </div>
+          </form>
+        </div>
+        <form action="post">
+          <div class="maincourse"> 
+            <h2 class="text-center">Lunch</h2>
+          </div>
+          <div class="text-center menu">
+            <label for="Lunch1">Menu 1</label><input class="m-3" type="radio" name="maincourse" id="Lunch1">
+            <label for="Lunch2">Menu 2</label><input class="m-3" type="radio" name="maincourse" id="Lunch2">
+            <label for="Lunch3">Menu 3</label><input class="m-3" type="radio" name="maincourse" id="Lunch3">
+            <label for="Lunch4">Menu 4</label><input class="m-3" type="radio" name="maincourse" id="Lunch4">
+          </div>
+        </form>
+        <div class="d-flex justify-content-center py-5">
+          <button class="bg-danger text-white btn" type="submit">Submit Form</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="bg-dark">
+      <div class="container text-center p-4 w-100">
+        <p class="text-secondary fs-4  section-heading">Partner</p>
+        <ul class=" d-flex flex-wrap flex-md-nowrap text-secondary justify-content-center justify-content-baseline list-unstyled ">
+          <li><a class="text-secondary text-decoration-none fs-4 fw-bold m-2" href= "#">mozilla</a></li>
+          <li><a class="text-secondary text-decoration-none fs-4 fw-light m-2" href="#">Google</a></li>
+          <li><a class="text-secondary text-decoration-none fs-4  fw-bolder m-2" href="#">NAVER</a></li>
+          <li><a class="text-secondary text-decoration-none fs-5 fw-light m-2" href="#">daumkakao</a></li>
+          <li><a class="text-secondary text-decoration-none fs-5 fw-light  m-2" href="#">airbnb</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="subfooter-container">
+      <div class="container subfooter text-secondary text-center py-3">
+        <p><em>C.W.GLOBAL</em>   &COPY;2021 Creative Nigeria. Some Rights Reserved</p>
+        <p>也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字,</p><br>
+        <p>由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.querySelector('#drawer-btn').addEventListener('click', function() {
+      document.querySelector('#drawer').classList.toggle('open');
+    });
+  </script> 
+</body>
+</html>
